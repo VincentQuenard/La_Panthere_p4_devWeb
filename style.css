@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url('img/texture-paper.png');
+  background: url('img/texture-paper.webp');
   background-size: 280px 280px;
 }
 
@@ -708,6 +708,8 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 h2 {
@@ -756,6 +758,7 @@ h4 {
 
 .portfolio-thumb {
   margin-bottom: 24px;
+  width: 100%;
 }
 
 .portfolio-row {
